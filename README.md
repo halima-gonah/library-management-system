@@ -2,7 +2,7 @@
 
 ### Library Management System
 
-# Description of what your project does
+## Description of what your project does
 
 This SQL script defines the schema for a Library Management System. It creates a new database and sets up all the necessary tables with appropriate fields, constraints, and relationships. Here’s a breakdown of what each part does:
 
@@ -116,7 +116,7 @@ Many-to-many junction tables: For flexible relationships like authorship, catego
 
 In summary, this script provides a comprehensive, well-structured relational schema for a fully-featured library management system, covering users, books, inventory, borrowing, staff, events, and fines.
 
-# How to run/setup the project (or import SQL)
+## How to run/setup the project (or import SQL)
 
 Steps:
 Open MySQL Workbench
@@ -129,4 +129,4 @@ Load the library_management.sql file
 
 Click the lightning bolt icon (⚡) to execute the script
 
-# Screenshot or link to your ERD
+## Screenshot or link to your ERD
