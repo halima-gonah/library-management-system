@@ -130,3 +130,5 @@ Load the library_management.sql file
 Click the lightning bolt icon (⚡) to execute the script
 
 ## Screenshot or link to your ERD
+
+![alt text](library_erd_svg.svg)

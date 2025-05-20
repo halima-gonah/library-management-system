@@ -1,0 +1,232 @@
+<svg viewBox="0 0 1000 1200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Styles -->
+  <defs>
+    <filter id="shadow" x="-2" y="-2" width="110%" height="110%">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-opacity="0.3" />
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5"
+      markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#666" />
+    </marker>
+    <marker id="diamond" viewBox="0 0 16 10" refX="16" refY="5"
+      markerWidth="10" markerHeight="6" orient="auto">
+      <path d="M 0 5 L 8 0 L 16 5 L 8 10 z" fill="white" stroke="#666" stroke-width="1" />
+    </marker>
+    <marker id="crow" viewBox="0 0 10 10" refX="10" refY="5"
+      markerWidth="10" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="white" stroke="#666" stroke-width="1" />
+    </marker>
+  </defs>
+  
+  <!-- Entities -->
+  
+  <!-- Row 1 -->
+  <g transform="translate(50, 50)">
+    <rect x="0" y="0" width="180" height="180" rx="5" ry="5" fill="#e6f2ff" stroke="#004d99" stroke-width="2" filter="url(#shadow)" />
+    <rect x="0" y="0" width="180" height="30" rx="5" ry="5" fill="#004d99" stroke="#004d99" stroke-width="2" />
+    <text x="90" y="20" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Members</text>
+    <text x="10" y="50" font-family="Arial" font-size="12">member_id (PK)</text>
+    <text x="10" y="70" font-family="Arial" font-size="12">first_name</text>
+    <text x="10" y="90" font-family="Arial" font-size="12">last_name</text>
+    <text x="10" y="110" font-family="Arial" font-size="12">email</text>
+    <text x="10" y="130" font-family="Arial" font-size="12">phone_number</text>
+    <text x="10" y="150" font-family="Arial" font-size="12">membership_status</text>
+    <text x="10" y="170" font-family="Arial" font-size="12">membership_type</text>
+  </g>
+  
+  <g transform="translate(290, 50)">
+    <rect x="0" y="0" width="180" height="180" rx="5" ry="5" fill="#ffe6e6" stroke="#990000" stroke-width="2" filter="url(#shadow)" />
+    <rect x="0" y="0" width="180" height="30" rx="5" ry="5" fill="#990000" stroke="#990000" stroke-width="2" />
+    <text x="90" y="20" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Books</text>
+    <text x="10" y="50" font-family="Arial" font-size="12">book_id (PK)</text>
+    <text x="10" y="70" font-family="Arial" font-size="12">isbn</text>
+    <text x="10" y="90" font-family="Arial" font-size="12">title</text>
+    <text x="10" y="110" font-family="Arial" font-size="12">publisher_id (FK)</text>
+    <text x="10" y="130" font-family="Arial" font-size="12">publication_date</text>
+    <text x="10" y="150" font-family="Arial" font-size="12">language</text>
+    <text x="10" y="170" font-family="Arial" font-size="12">page_count</text>
+  </g>
+  
+  <g transform="translate(530, 50)">
+    <rect x="0" y="0" width="180" height="160" rx="5" ry="5" fill="#e6ffe6" stroke="#006600" stroke-width="2" filter="url(#shadow)" />
+    <rect x="0" y="0" width="180" height="30" rx="5" ry="5" fill="#006600" stroke="#006600" stroke-width="2" />
+    <text x="90" y="20" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Authors</text>
+    <text x="10" y="50" font-family="Arial" font-size="12">author_id (PK)</text>
+    <text x="10" y="70" font-family="Arial" font-size="12">first_name</text>
+    <text x="10" y="90" font-family="Arial" font-size="12">last_name</text>
+    <text x="10" y="110" font-family="Arial" font-size="12">birth_date</text>
+    <text x="10" y="130" font-family="Arial" font-size="12">nationality</text>
+    <text x="10" y="150" font-family="Arial" font-size="12">biography</text>
+  </g>
+  
+  <g transform="translate(770, 50)">
+    <rect x="0" y="0" width="180" height="140" rx="5" ry="5" fill="#fff2e6" stroke="#cc7000" stroke-width="2" filter="url(#shadow)" />
+    <rect x="0" y="0" width="180" height="30" rx="5" ry="5" fill="#cc7000" stroke="#cc7000" stroke-width="2" />
+    <text x="90" y="20" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Publishers</text>
+    <text x="10" y="50" font-family="Arial" font-size="12">publisher_id (PK)</text>
+    <text x="10" y="70" font-family="Arial" font-size="12">name</text>
+    <text x="10" y="90" font-family="Arial" font-size="12">address</text>
+    <text x="10" y="110" font-family="Arial" font-size="12">phone_number</text>
+    <text x="10" y="130" font-family="Arial" font-size="12">email</text>
+  </g>
+  
+  <!-- Row 2 -->
+  <g transform="translate(50, 290)">
+    <rect x="0" y="0" width="180" height="140" rx="5" ry="5" fill="#e6e6ff" stroke="#000099" stroke-width="2" filter="url(#shadow)" />
+    <rect x="0" y="0" width="180" height="30" rx="5" ry="5" fill="#000099" stroke="#000099" stroke-width="2" />
+    <text x="90" y="20" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">BookCopies</text>
+    <text x="10" y="50" font-family="Arial" font-size="12">copy_id (PK)</text>
+    <text x="10" y="70" font-family="Arial" font-size="12">book_id (FK)</text>
+    <text x="10" y="90" font-family="Arial" font-size="12">barcode</text>
+    <text x="10" y="110" font-family="Arial" font-size="12">status</text>
+    <text x="10" y="130" font-family="Arial" font-size="12">condition</text>
+  </g>
+  
+  <g transform="translate(290, 290)">
+    <rect x="0" y="0" width="180" height="160" rx="5" ry="5" fill="#f2e6ff" stroke="#660066" stroke-width="2" filter="url(#shadow)" />
+    <rect x="0" y="0" width="180" height="30" rx="5" ry="5" fill="#660066" stroke="#660066" stroke-width="2" />
+    <text x="90" y="20" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Loans</text>
+    <text x="10" y="50" font-family="Arial" font-size="12">loan_id (PK)</text>
+    <text x="10" y="70" font-family="Arial" font-size="12">copy_id (FK)</text>
+    <text x="10" y="90" font-family="Arial" font-size="12">member_id (FK)</text>
+    <text x="10" y="110" font-family="Arial" font-size="12">checkout_date</text>
+    <text x="10" y="130" font-family="Arial" font-size="12">due_date</text>
+    <text x="10" y="150" font-family="Arial" font-size="12">return_date</text>
+  </g>
+  
+  <g transform="translate(530, 290)">
+    <rect x="0" y="0" width="180" height="140" rx="5" ry="5" fill="#ffe6ff" stroke="#990099" stroke-width="2" filter="url(#shadow)" />
+    <rect x="0" y="0" width="180" height="30" rx="5" ry="5" fill="#990099" stroke="#990099" stroke-width="2" />
+    <text x="90" y="20" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Reservations</text>
+    <text x="10" y="50" font-family="Arial" font-size="12">reservation_id (PK)</text>
+    <text x="10" y="70" font-family="Arial" font-size="12">book_id (FK)</text>
+    <text x="10" y="90" font-family="Arial" font-size="12">member_id (FK)</text>
+    <text x="10" y="110" font-family="Arial" font-size="12">reservation_date</text>
+    <text x="10" y="130" font-family="Arial" font-size="12">status</text>
+  </g>
+  
+  <g transform="translate(770, 290)">
+    <rect x="0" y="0" width="180" height="140" rx="5" ry="5" fill="#e6ffff" stroke="#006666" stroke-width="2" filter="url(#shadow)" />
+    <rect x="0" y="0" width="180" height="30" rx="5" ry="5" fill="#006666" stroke="#006666" stroke-width="2" />
+    <text x="90" y="20" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Categories</text>
+    <text x="10" y="50" font-family="Arial" font-size="12">category_id (PK)</text>
+    <text x="10" y="70" font-family="Arial" font-size="12">name</text>
+    <text x="10" y="90" font-family="Arial" font-size="12">parent_category_id (FK)</text>
+    <text x="10" y="110" font-family="Arial" font-size="12">description</text>
+  </g>
+  
+  <!-- Row 3 -->
+  <g transform="translate(50, 490)">
+    <rect x="0" y="0" width="180" height="160" rx="5" ry="5" fill="#ffffe6" stroke="#666600" stroke-width="2" filter="url(#shadow)" />
+    <rect x="0" y="0" width="180" height="30" rx="5" ry="5" fill="#666600" stroke="#666600" stroke-width="2" />
+    <text x="90" y="20" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Staff</text>
+    <text x="10" y="50" font-family="Arial" font-size="12">staff_id (PK)</text>
+    <text x="10" y="70" font-family="Arial" font-size="12">first_name</text>
+    <text x="10" y="90" font-family="Arial" font-size="12">last_name</text>
+    <text x="10" y="110" font-family="Arial" font-size="12">position</text>
+    <text x="10" y="130" font-family="Arial" font-size="12">username</text>
+    <text x="10" y="150" font-family="Arial" font-size="12">is_admin</text>
+  </g>
+  
+  <g transform="translate(290, 490)">
+    <rect x="0" y="0" width="180" height="140" rx="5" ry="5" fill="#e6fff2" stroke="#006633" stroke-width="2" filter="url(#shadow)" />
+    <rect x="0" y="0" width="180" height="30" rx="5" ry="5" fill="#006633" stroke="#006633" stroke-width="2" />
+    <text x="90" y="20" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Fines</text>
+    <text x="10" y="50" font-family="Arial" font-size="12">fine_id (PK)</text>
+    <text x="10" y="70" font-family="Arial" font-size="12">loan_id (FK)</text>
+    <text x="10" y="90" font-family="Arial" font-size="12">amount</text>
+    <text x="10" y="110" font-family="Arial" font-size="12">date_issued</text>
+    <text x="10" y="130" font-family="Arial" font-size="12">date_paid</text>
+  </g>
+  
+  <g transform="translate(530, 490)">
+    <rect x="0" y="0" width="180" height="160" rx="5" ry="5" fill="#f2f2f2" stroke="#333333" stroke-width="2" filter="url(#shadow)" />
+    <rect x="0" y="0" width="180" height="30" rx="5" ry="5" fill="#333333" stroke="#333333" stroke-width="2" />
+    <text x="90" y="20" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Events</text>
+    <text x="10" y="50" font-family="Arial" font-size="12">event_id (PK)</text>
+    <text x="10" y="70" font-family="Arial" font-size="12">title</text>
+    <text x="10" y="90" font-family="Arial" font-size="12">start_datetime</text>
+    <text x="10" y="110" font-family="Arial" font-size="12">end_datetime</text>
+    <text x="10" y="130" font-family="Arial" font-size="12">location</text>
+    <text x="10" y="150" font-family="Arial" font-size="12">staff_id (FK)</text>
+  </g>
+
+  <!-- Junction tables at bottom -->
+  <g transform="translate(200, 700)">
+    <rect x="0" y="0" width="160" height="110" rx="5" ry="5" fill="#f2f2f2" stroke="#666666" stroke-width="2" filter="url(#shadow)" />
+    <rect x="0" y="0" width="160" height="30" rx="5" ry="5" fill="#666666" stroke="#666666" stroke-width="2" />
+    <text x="80" y="20" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">BookAuthors</text>
+    <text x="10" y="50" font-family="Arial" font-size="12">book_id (PK, FK)</text>
+    <text x="10" y="70" font-family="Arial" font-size="12">author_id (PK, FK)</text>
+    <text x="10" y="90" font-family="Arial" font-size="12">role</text>
+  </g>
+  
+  <g transform="translate(400, 700)">
+    <rect x="0" y="0" width="160" height="90" rx="5" ry="5" fill="#f2f2f2" stroke="#666666" stroke-width="2" filter="url(#shadow)" />
+    <rect x="0" y="0" width="160" height="30" rx="5" ry="5" fill="#666666" stroke="#666666" stroke-width="2" />
+    <text x="80" y="20" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">BookCategories</text>
+    <text x="10" y="50" font-family="Arial" font-size="12">book_id (PK, FK)</text>
+    <text x="10" y="70" font-family="Arial" font-size="12">category_id (PK, FK)</text>
+  </g>
+  
+  <g transform="translate(600, 700)">
+    <rect x="0" y="0" width="160" height="110" rx="5" ry="5" fill="#f2f2f2" stroke="#666666" stroke-width="2" filter="url(#shadow)" />
+    <rect x="0" y="0" width="160" height="30" rx="5" ry="5" fill="#666666" stroke="#666666" stroke-width="2" />
+    <text x="80" y="20" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">EventAttendees</text>
+    <text x="10" y="50" font-family="Arial" font-size="12">event_id (PK, FK)</text>
+    <text x="10" y="70" font-family="Arial" font-size="12">member_id (PK, FK)</text>
+    <text x="10" y="90" font-family="Arial" font-size="12">attended</text>
+  </g>
+  
+  <!-- Relationships -->
+  <!-- Books - Publishers -->
+  <line x1="470" y1="110" x2="770" y2="110" stroke="#666" stroke-width="2" marker-end="url(#arrow)" />
+  
+  <!-- Books - BookCopies -->
+  <line x1="380" y1="230" x2="140" y2="290" stroke="#666" stroke-width="2" marker-end="url(#arrow)" />
+  
+  <!-- Books - BookAuthors -->
+  <line x1="380" y1="230" x2="280" y2="700" stroke="#666" stroke-width="2" marker-end="url(#diamond)" />
+  
+  <!-- Books - BookCategories -->
+  <line x1="400" y1="230" x2="480" y2="700" stroke="#666" stroke-width="2" marker-end="url(#diamond)" />
+  
+  <!-- Books - Reservations -->
+  <line x1="410" y1="230" x2="550" y2="290" stroke="#666" stroke-width="2" marker-end="url(#arrow)" />
+  
+  <!-- BookCopies - Loans -->
+  <line x1="230" y1="360" x2="290" y2="360" stroke="#666" stroke-width="2" marker-end="url(#arrow)" />
+  
+  <!-- Members - Loans -->
+  <line x1="140" y1="230" x2="340" y2="290" stroke="#666" stroke-width="2" marker-end="url(#arrow)" />
+  
+  <!-- Members - Reservations -->
+  <line x1="170" y1="230" x2="530" y2="330" stroke="#666" stroke-width="2" marker-end="url(#arrow)" />
+  
+  <!-- Members - EventAttendees -->
+  <line x1="140" y1="230" x2="640" y2="700" stroke="#666" stroke-width="2" marker-end="url(#diamond)" />
+  
+  <!-- Loans - Fines -->
+  <line x1="370" y1="450" x2="370" y2="490" stroke="#666" stroke-width="2" marker-end="url(#arrow)" />
+  
+  <!-- Staff - Fines -->
+  <line x1="140" y1="570" x2="290" y2="570" stroke="#666" stroke-width="2" marker-end="url(#arrow)" />
+  
+  <!-- Staff - Events -->
+  <line x1="230" y1="570" x2="530" y2="570" stroke="#666" stroke-width="2" marker-end="url(#arrow)" />
+  
+  <!-- Events - EventAttendees -->
+  <line x1="620" y1="650" x2="680" y2="700" stroke="#666" stroke-width="2" marker-end="url(#arrow)" />
+  
+  <!-- Authors - BookAuthors -->
+  <line x1="620" y1="210" x2="280" y2="700" stroke="#666" stroke-width="2" marker-end="url(#diamond)" />
+  
+  <!-- Categories - BookCategories -->
+  <line x1="820" y1="430" x2="480" y2="700" stroke="#666" stroke-width="2" marker-end="url(#diamond)" />
+  
+  <!-- Categories self-reference -->
+  <path d="M 950 360 C 980 360, 980 340, 950 340" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  
+  <!-- Title -->
+  <text x="500" y="30" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle">Library Management System ERD</text>
+</svg>
